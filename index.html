@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blablabla</title>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;   /* texto fica em cima do botao */
+            justify-content: center; /* Centraliza horizontal */
+            align-items: center;      /* Centraliza vertical */
+            height: 100vh;            /* Ocupar a tela toda */
+            margin: 0;
+            background-color: #ffffff;
+        }
+
+        input[type="button"] {
+            padding: 15px 40px;            /* Aumenta o tamanho */
+            font-size: 20px;               /* Texto maior */
+            background-color: #005ab9;     /* Azul */
+            color: white;                  /* Texto branco */
+            border: none;                  /* Remove borda */
+            border-radius: 10px;           /* Arredondado */
+            cursor: pointer;    
+            border: outset black 5px;           /* Mãozinha no hover */
+        }
+
+        input[type="button"]:hover {
+            background-color: #b30000;     /* Azul mais escuro no hover */
+        }
+
+        p {
+            font-size: 32px;
+            color: black;
+            text-align: center;  
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 5px;
+        }
+
+
+        .minustext {
+            font-size: 20px;
+            color: black;
+            text-align: center;  
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <p>Seja bem-vindo ao "SITE MUITO LEGAL 😁"</p> 
+    <p class="minustext"> feito por Bernardo Sagaz e Nicolas Santos</p>
+    <input type="button" value="Entrar" onclick="window.open('balela.html', '_self')">
+
+</body>
+</html>;
